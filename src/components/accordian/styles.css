@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #414141;
+  color: white;
+}
+
+.accordian-div {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+  max-width: 500px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.main-div button {
+  all: unset;
+  align-self: auto;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: brown;
+  cursor: pointer;
+}
+
+.main-div button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out; /* Added transition property */
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.accordian-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: brown;
+  padding: 10px 20px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordian-content:hover {
+  transform: scale(1.05);
+}
