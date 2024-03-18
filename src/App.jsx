@@ -1,10 +1,14 @@
 import { Accordian } from "./components/accordian";
+import RandomColor from "./components/randomColor";
 
 function App() {
   return (
     <div>
       {/* ACCORDIAN  */}
-      <Accordian />
+      {/* <Accordian /> */}
+
+      {/* RandomColor  */}
+      <RandomColor />
     </div>
   );
 }
