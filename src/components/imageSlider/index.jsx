@@ -102,6 +102,16 @@ export default function ImageSlider() {
           onClick={handleNextClick}
         />
       </div>
+      <div className="author-name">
+        {images.map((author, index) => (
+          <p
+            key={author.id}
+            className={currentImg === index ? "name" : "inactive-name"}
+          >
+            {author.author}
+          </p>
+        ))}
+      </div>
     </div>
   );
 }

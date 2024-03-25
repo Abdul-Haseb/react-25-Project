@@ -76,3 +76,19 @@ body {
   transform: scale(1.5);
   transform: transform 0.3s all;
 }
+
+.author-name {
+  display: flex;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.name {
+  display: block;
+}
+.inactive-name {
+  display: none;
+}
