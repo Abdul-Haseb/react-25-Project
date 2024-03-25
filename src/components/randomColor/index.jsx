@@ -1,4 +1,5 @@
-import { useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useState } from "react";
 
 export default function RandomColor() {
   // Lets Take 2 states
@@ -30,6 +31,12 @@ export default function RandomColor() {
     setColor(`rgb(${r},${g},${b})`);
     console.log(color);
   };
+
+  //   We will Use UseEffect for every time when we change the type of color it should quickly change
+  //   useEffect(() => {
+  //     if (typeOfColor === "hex") handleCreateHexColor();
+  //     else handleCreateRgbColor();
+  //   }, [typeOfColor]);
   return (
     <div
       style={{
