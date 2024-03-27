@@ -1,0 +1,58 @@
+.load-more-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.product {
+  padding: 20px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.product-other-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #414141;
+}
+
+.prize {
+  font: italic;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212121;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.disable-text {
+  display: flex;
+  justify-content: center;
+}

@@ -1,4 +1,4 @@
-body {
+.wrapper {
   background: linear-gradient(45deg, #212121, #cfcfcf, #414141);
   height: 96.5vh;
 }

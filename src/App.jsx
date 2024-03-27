@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 import { Accordian } from "./components/accordian";
 import ImageSlider from "./components/imageSlider";
+import LoadMore from "./components/load-more-data";
 import RandomColor from "./components/randomColor";
 import StarRating from "./components/starRating";
 
@@ -17,7 +19,10 @@ function App() {
       {/* <StarRating noOfStars={10} /> */}
 
       {/* Image slider  */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
+
+      {/* Load More Data  */}
+      <LoadMore />
     </div>
   );
 }

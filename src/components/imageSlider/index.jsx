@@ -62,7 +62,7 @@ export default function ImageSlider() {
   }
 
   return (
-    <div>
+    <div className="wrapper">
       <div className="container">
         <BsArrowLeftCircleFill
           className="arrow left-arrow"
