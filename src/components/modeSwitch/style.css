@@ -1,0 +1,42 @@
+.theme-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.theme-container p {
+  font-size: larger;
+  color: inherit; /* Inherit color from parent */
+}
+
+.theme-container button {
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+
+/* Styles for dark mode */
+.dark {
+  background: #000;
+  color: white;
+}
+
+.dark button {
+  background-color: white;
+  color: black;
+}
+
+/* Styles for light mode */
+.light {
+  background-color: #fff;
+  color: black;
+}
+
+.light button {
+  background-color: black;
+  color: white;
+}
