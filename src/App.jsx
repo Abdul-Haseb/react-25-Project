@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
+import FindGithubUser from "./components/GithubUnserFinder/FindUser";
 import { Accordian } from "./components/accordian";
+import ModelTest from "./components/customModel/ModelTest";
 import { TabsComponent } from "./components/dynamicTabs/maintab";
-import ImageSlider from "./components/imageSlider";
 import LoadMore from "./components/load-more-data";
 import SwitchMode from "./components/modeSwitch";
 import QrCodeGenerator from "./components/qr-code-generator";
@@ -39,7 +40,10 @@ function App() {
 
       {/* DyanmicTabs  */}
       {/* <MainTabs /> */}
-      <TabsComponent />
+      {/* <TabsComponent /> */}
+
+      {/* Custom Model  */}
+      {/* <ModelTest /> */}
     </div>
   );
 }
