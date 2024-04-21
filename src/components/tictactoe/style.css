@@ -1,0 +1,37 @@
+.tic-tac-toe-container {
+  /* clear: both;
+  content: "";
+  display: table; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  float: left;
+  border: 1px solid red;
+  font-size: 40px;
+  padding: 0;
+  text-align: center;
+  margin-top: -1px;
+  height: 100px;
+  width: 100px;
+  margin-right: -1px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.restart {
+  padding: 5px 10px;
+  outline: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.restart:hover {
+  transform: scale(1.05);
+}

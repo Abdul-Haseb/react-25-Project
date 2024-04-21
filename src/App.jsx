@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
-import FindGithubUser from "./components/GithubUnserFinder/FindUser";
+import { FindGithubUser } from "./components/GithubUser/FindGithubUser";
+import SearchUser from "./components/SearchField";
+import SearchedField from "./components/SearchField/Copy";
 import { Accordian } from "./components/accordian";
 import ModelTest from "./components/customModel/ModelTest";
 import { TabsComponent } from "./components/dynamicTabs/maintab";
@@ -9,6 +11,7 @@ import QrCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/randomColor";
 import ScrollIndicator from "./components/scrollindicator";
 import StarRating from "./components/starRating";
+import TicTacToe from "./components/tictactoe/TicTacToe";
 
 function App() {
   return (
@@ -44,6 +47,16 @@ function App() {
 
       {/* Custom Model  */}
       {/* <ModelTest /> */}
+
+      {/* Github User Finder  */}
+      {/* <FindGithubUser /> */}
+
+      {/* SearchUser  */}
+      {/* <SearchUser /> */}
+      {/* <SearchedField /> */}
+
+      {/* TicTacToe  */}
+      <TicTacToe />
     </div>
   );
 }
