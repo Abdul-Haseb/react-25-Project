@@ -1,4 +1,7 @@
 /* eslint-disable no-unused-vars */
+import BgChanger from "./components/Bg-changer/Index";
+import TestUseFetchCustomHook from "./components/CustomHook/Test";
+import TestingCustomHook from "./components/CustomHook/Test";
 import { FindGithubUser } from "./components/GithubUser/FindGithubUser";
 import SearchUser from "./components/SearchField";
 import SearchedField from "./components/SearchField/Copy";
@@ -56,7 +59,13 @@ function App() {
       {/* <SearchedField /> */}
 
       {/* TicTacToe  */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* Using Custom HOOK  */}
+      {/* <TestUseFetchCustomHook /> */}
+
+      {/* Bg Changer  */}
+      <BgChanger />
     </div>
   );
 }

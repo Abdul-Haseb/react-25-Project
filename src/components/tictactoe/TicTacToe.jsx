@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 // Import necessary hooks and components from React and React Icons
 import { useState } from "react"; // Hook to manage state in functional components
 import { useEffect } from "react"; // Hook to perform side effects in functional components
@@ -19,17 +18,7 @@ export default function TicTacToe() {
     if (handleWinner(copySquare) || copySquare[getCurrentBox]) return;
 
     // Update the clicked square with 'X' or 'O' based on whose turn it is
-    copySquare[getCurrentBox] = isXTurn ? (
-      <span
-        style={{
-          color: "blue",
-        }}
-      >
-        X
-      </span>
-    ) : (
-      <span style={{ color: "red" }}>O</span>
-    );
+    copySquare[getCurrentBox] = isXTurn ? "X" : "O";
 
     // Toggle the turn to the next player
     setIsXTurn(!isXTurn);
